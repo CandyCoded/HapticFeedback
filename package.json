@@ -1,0 +1,25 @@
+{
+  "name": "xyz.candycoded.hapticfeedback",
+  "displayName": "Haptic Feedback",
+  "version": "1.0.0",
+  "unity": "2019.2",
+  "unityRelease": "0f1",
+  "description": "Perform haptic feedback on both iOS and Android devices.",
+  "license": "MIT",
+  "dependencies": {},
+  "keywords": [
+    "ios",
+    "android",
+    "haptic"
+  ],
+  "author": {
+    "name": "Scott Doxey",
+    "email": "hello@scottdoxey.com",
+    "homepage": "http://scottdoxey.com/"
+  },
+  "homepage": "https://github.com/CandyCoded/HapticFeedback",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CandyCoded/HapticFeedback.git"
+  }
+}
