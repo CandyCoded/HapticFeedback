@@ -2,6 +2,8 @@
 
 > Perform haptic feedback on both iOS and Android devices.
 
+[![npm](https://img.shields.io/npm/v/xyz.candycoded.hapticfeedback)](https://www.npmjs.com/package/xyz.candycoded.hapticfeedback)
+
 ## Installation
 
 ### Unity Package Manager
@@ -16,6 +18,24 @@
     "xyz.candycoded.hapticfeedback": "https://github.com/CandyCoded/HapticFeedback.git#v1.0.0",
     ...
   }
+}
+```
+
+#### Scoped UPM Registry
+
+```json
+{
+  "dependencies": {
+    "xyz.candycoded.hapticfeedback": "1.0.0",
+    ...
+  },
+  "scopedRegistries": [
+    {
+      "name": "candycoded",
+      "url": "https://registry.npmjs.com",
+      "scopes": ["xyz.candycoded"]
+    }
+  ]
 }
 ```
 
