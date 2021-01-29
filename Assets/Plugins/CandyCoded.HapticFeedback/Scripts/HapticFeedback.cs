@@ -9,9 +9,9 @@ namespace CandyCoded.HapticFeedback
         public static void LightFeedback()
         {
 
-#if UNITY_IPHONE
+#if UNITY_IPHONE && !UNITY_EDITOR
             iOS.HapticFeedback.IOSUIImpactFeedbackGenerator("light");
-#elif UNITY_ANDROID
+#elif UNITY_ANDROID && !UNITY_EDITOR
             Android.HapticFeedback.PerformHapticFeedback(Android.HapticFeedbackConstants.CONTEXT_CLICK);
 #endif
 
@@ -20,9 +20,9 @@ namespace CandyCoded.HapticFeedback
         public static void MediumFeedback()
         {
 
-#if UNITY_IPHONE
+#if UNITY_IPHONE && !UNITY_EDITOR
             iOS.HapticFeedback.IOSUIImpactFeedbackGenerator("medium");
-#elif UNITY_ANDROID
+#elif UNITY_ANDROID && !UNITY_EDITOR
             Android.HapticFeedback.PerformHapticFeedback(Android.HapticFeedbackConstants.VIRTUAL_KEY);
 #endif
 
@@ -31,9 +31,9 @@ namespace CandyCoded.HapticFeedback
         public static void HeavyFeedback()
         {
 
-#if UNITY_IPHONE
+#if UNITY_IPHONE && !UNITY_EDITOR
             iOS.HapticFeedback.IOSUIImpactFeedbackGenerator("heavy");
-#elif UNITY_ANDROID
+#elif UNITY_ANDROID && !UNITY_EDITOR
             Android.HapticFeedback.PerformHapticFeedback(Android.HapticFeedbackConstants.LONG_PRESS);
 #endif
 
