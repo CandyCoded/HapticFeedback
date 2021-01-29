@@ -6,7 +6,9 @@
   "unityRelease": "0f1",
   "description": "Perform haptic feedback on both iOS and Android devices.",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "com.unity.modules.androidjni": "1.0.0"
+  },
   "keywords": [
     "ios",
     "android",
