@@ -9,7 +9,7 @@ namespace CandyCoded.HapticFeedback.iOS
     {
 
         [DllImport("__Internal")]
-        public static extern void IOSUIImpactFeedbackGenerator(string style = "medium");
+        public static extern void PerformHapticFeedback(string style = "medium");
 
     }
 
