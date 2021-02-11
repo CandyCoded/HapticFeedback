@@ -6,7 +6,7 @@
 extern "C"
 {
 
-    void IOSUIImpactFeedbackGenerator(const char* style) {
+    void PerformHapticFeedback(const char* style) {
 
         UIImpactFeedbackStyle feedbackStyle;
 
