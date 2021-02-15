@@ -1,7 +1,5 @@
 build:
-	(cd ./AndroidPlugin/ && ANDROID_SDK_ROOT=~/Library/Android/sdk ./gradlew assembleRelease)
-	rm -f ./Assets/Plugins/CandyCoded.HapticFeedback/Plugins/Android/*.aar
-	find ./AndroidPlugin/app -type f -name "*.aar" -exec cp {} ./Assets/Plugins/CandyCoded.HapticFeedback/Plugins/Android/ \;
+	(cd ./Assets/Plugins/CandyCoded.HapticFeedback/Plugins/Android && build-unity-android-plugin -p com.candycoded.hapticfeedbacklibrary AndroidPlugin.java)
 
 deploy:
 	git subtree push --prefix Assets/Plugins/CandyCoded.HapticFeedback origin upm

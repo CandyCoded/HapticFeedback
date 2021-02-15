@@ -1,2 +1,0 @@
-include ':app:hapticfeedbacklibrary'
-rootProject.name = "Haptic Feedback Library"
