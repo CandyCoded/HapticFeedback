@@ -1,6 +1,6 @@
 # HapticFeedback
 
-> Perform haptic feedback on both iOS and Android devices.
+> 📳 Perform haptic feedback on both iOS and Android devices.
 
 [![npm](https://img.shields.io/npm/v/xyz.candycoded.hapticfeedback)](https://www.npmjs.com/package/xyz.candycoded.hapticfeedback)
 
@@ -15,7 +15,7 @@
 ```json
 {
   "dependencies": {
-    "xyz.candycoded.hapticfeedback": "https://github.com/CandyCoded/HapticFeedback.git#v1.0.0",
+    "xyz.candycoded.hapticfeedback": "https://github.com/CandyCoded/HapticFeedback.git#v1.0.2",
     ...
   }
 }
@@ -26,7 +26,7 @@
 ```json
 {
   "dependencies": {
-    "xyz.candycoded.hapticfeedback": "1.0.0",
+    "xyz.candycoded.hapticfeedback": "1.0.2",
     ...
   },
   "scopedRegistries": [
