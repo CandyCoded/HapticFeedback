@@ -73,13 +73,3 @@ crashlytics-build.properties
 # Custom
 
 .idea/
-
-**/Assets/*
-!Assets/Plugins/
-
-Packages/
-ProjectSettings/
-
-/*.log
-/*.meta
-/*.xml
